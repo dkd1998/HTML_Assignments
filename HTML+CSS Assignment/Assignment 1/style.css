@@ -1,0 +1,69 @@
+<style>
+input, select {
+    margin: 8px 0;
+    display: block;
+    border-radius: 4px;
+  }
+  
+  button {
+  padding: 1em;
+  border-radius: 1em;
+  background: #00203FFF ;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  button:hover {
+  background:rgb(41, 71, 100) ;
+  cursor: pointer;
+  }
+
+  input[type=file]::file-selector-button {
+    background-color: white;
+    border: 2px solid #00203FFF;
+    padding: 8px;
+    border-radius: 1em;
+  }
+  
+  div {
+
+    border-radius: 10px;
+    background-color:#9CC3D5FF;
+    padding: 30px;
+    height: 70%;
+    width : 40%;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+  }
+    label, input {
+        width: 60%;
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      color: #00203FFF;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: large;
+      font;
+  }
+  
+  textarea {
+      resize: none;
+      width: 60%;
+      height: 200px;
+      margin-left: 20%;
+  }
+  input[type="file"] {
+  
+      color: #9CC3D5FF;
+  }
+  
+</style>
